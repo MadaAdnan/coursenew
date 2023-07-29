@@ -20,7 +20,7 @@ $students = [
 
 ];
 
-
+// count($students);
 echo "<pre>";
 // print_r($students[0]['name']);
 // print_r($students[1]['name']);
@@ -94,4 +94,48 @@ echo "</pre>";
 //     }
 // }
 
+$arr=['name'=>1,'age'=>2,'b'=>3,4,5,6,7,8,9];
+$arr2=['a','b','c',1,4,5];
+echo "<pre>";
+print_r($arr);
+echo "</pre>";
+
+## delete from end
+// $index=array_pop($arr);
+// echo $index;
+# merge // دمج
+// $arr3=array_merge($arr,$arr2);
+// echo "<pre>";
+// print_r($arr);
+// echo "</pre>";
+// echo "<pre>";
+// print_r($arr2);
+// echo "</pre>";
+// echo "<pre>";
+// print_r($arr3);
+// echo "</pre>";
+#sum
+// $sum=array_sum($arr);
+// echo $sum;
+# diffrence
+// $arr3=array_diff($arr2,$arr);
+// echo "<pre>";
+// print_r($arr3);
+// echo "</pre>";
+# delete from start
+// array_shift($arr);
+# insert to end element
+// array_push($arr,'e','w');
+
+// $index=array_search(1,$arr);
+# return Array Keys Only From Array
+// $arr3=array_keys($arr);
+
+// $arr3=array_slice($arr,0,3);
+// $arr3=array_values($arr);
+
+// array_unshift($arr,'a');
+echo "<pre>";
+print_r($arr);
+echo "</pre>";
 ?>
