@@ -27,6 +27,24 @@
 function sum($num1,$num2):int|string{
 return 1;
 }
+//
+//$t=sum(12,23.2);
+//echo $t;
+$student=[
+    'name'=>'ali',
+    'age'=>28,
+    'success'=>true,
+];
+function getKeyFromArray($array):array{
+    if(!is_iterable($array)){
+       return [];
+    }
+    $list=[];
+   foreach($array as $key=>$item){
+       array_unshift($list,$key);
 
-$t=sum(12,23.2);
-echo $t;
+   }
+return $list;
+}
+
+print_r(getKeyFromArray(33));
